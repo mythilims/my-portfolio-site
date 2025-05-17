@@ -15,7 +15,7 @@ function Home() {
             I focus on creating engaging UI experiences with high performance and clean, scalable code.
           </p>
           <p className="fs-5 text-secondary mt-3" style={{ lineHeight: '1.8' }}>
-            With over 6 years of hands-on experience, I mentor junior developers, collaborate in Agile teams, and enjoy solving real-world frontend challenges.
+            With over 6+ years of hands-on experience, I mentor junior developers, collaborate in Agile teams, and enjoy solving real-world frontend challenges.
           </p>
 
           <div className="d-flex gap-3 flex-wrap mt-4 justify-content-md-start justify-content-center">

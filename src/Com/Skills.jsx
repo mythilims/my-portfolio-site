@@ -6,15 +6,16 @@ function Skills() {
     { name: 'CSS', percent: 85 },
     { name: 'JavaScript', percent: 80 },
     { name: 'React.js', percent: 75 },
-    { name: 'Redux', percent: 70 },
-    { name: 'Git', percent: 85 },
     { name: 'Bootstrap', percent: 80 },
+    {
+      name: 'Reactstrap', percent: 80
+    },
+    // { name: 'Redux', percent: 70 },
+    { name: 'Git', percent: 85 },
     {
       name: 'github', percent: 80
     },
-    {
-      name: 'Reactstrap', percent: 80
-    }
+
   ];
 
   return (
@@ -29,7 +30,7 @@ function Skills() {
           color: 'rgb(75, 0, 130)',
           fontSize: '26px',
           borderBottom: '2px solid  rgb(75, 0, 130)',
-          zIndex: 1050,
+          zIndex: 1050
         }}
       >
         My Skills

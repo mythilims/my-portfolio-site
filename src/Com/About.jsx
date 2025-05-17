@@ -10,7 +10,7 @@ function AboutMeWithEducation() {
           color: '#4b0082',
           fontSize: '26px',
           borderBottom: '2px solid #11998e',
-          zIndex: 1050,
+          zIndex: 1050
         }}
       >
         About Me

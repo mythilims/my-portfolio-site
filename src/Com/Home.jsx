@@ -4,10 +4,8 @@ import cv from '../assets/s_mythili.pdf';
 
 function Home() {
   return (
-    <div className="container 
-    // py-5"
-    >
-      <div className="row align-items-center gy-4">
+    <div className="container py-5">
+      <div className="row align-items-center gy-4 mt-4">
         {/* Left Column: Text + Buttons */}
         <div className="col-12 col-md-8 text-md-start text-center">
           <h1 className="fs-1 mb-2 commonTextBlueColor">Hello, I'm Mythili</h1>
@@ -33,9 +31,7 @@ function Home() {
 
             <a
               href="https://github.com/mythilims"
-              className="btn commonBgColor d-flex align-items-center 
-              // justify-content-center
-              "
+              className="btn commonBgColor d-flex align-items-center justify-content-center"
               style={{ width: '40px', height: '40px', padding: 0, borderRadius: '0' }}
               target="_blank"
               rel="noopener noreferrer"
@@ -61,25 +57,11 @@ function Home() {
         </div>
 
         {/* Right Column: Image */}
-        <div className="col-12 col-md-4 d-flex 
-        mt-4">
-          <div
-            className="commonBgColor d-flex  mt-5
-            // justify-content-center 
-            align-items-center rounded-circle p-2"
-            // style={{ width: '220px', height: '220px' }}
-          >
-            <img
-              src={myPhoto}
-              alt="Mythili"
-              className="rounded-circle"
-              style={{
-                // width: '200px',
-                // height: '200px',
-                objectFit: 'cover',
-                display: 'block',
-              }}
-            />
+        <div className="col-12 col-md-4 d-flex justify-content-center mt-md-0 mt-4">
+          <div className="col-12 col-md-4 d-flex justify-content-center mt-md-0 mt-4">
+            <div className="commonBgColor d-flex justify-content-center align-items-center  p-2 profile-wrapper" style={{ width: '320px', height: '320px' }}>
+              <img src={myPhoto} alt="Mythili" className=" profile-img" style={{ width: '300px', height: '300px', objectFit: 'cover' }} />
+            </div>
           </div>
         </div>
       </div>
